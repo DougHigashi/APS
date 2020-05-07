@@ -66,6 +66,7 @@ public class Game_Window extends JFrame implements Runnable {
 		no_button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				setResposta("Nao");
+				main.scanner.next("Nao");
 				System.out.println(getResposta());
 				GameText.setText(outText);
 				score.setText("Score: " + Score.getScore());
