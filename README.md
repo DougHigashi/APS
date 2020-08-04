@@ -1,2 +1,2 @@
 # APS
-Trabalhos semestrais do capeta
+Trabalhos semestrais
